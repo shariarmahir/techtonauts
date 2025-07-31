@@ -778,58 +778,6 @@ function initLoadingProgress() {
 // Initialize loading progress
 initLoadingProgress();
 
-// Theme switcher (bonus feature)
-function initThemeSwitcher() {
-    const themeSwitcher = document.createElement('button');
-    themeSwitcher.innerHTML = '🌙';
-    themeSwitcher.style.cssText = `
-        position: fixed;
-        bottom: 2rem;
-        right: 2rem;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: none;
-        background: var(--glass-bg);
-        backdrop-filter: blur(20px);
-        border: 1px solid var(--glass-border);
-        color: var(--color-text-primary);
-        font-size: 1.5rem;
-        cursor: pointer;
-        z-index: 1000;
-        transition: all 0.3s ease;
-    `;
-    
-    themeSwitcher.addEventListener('click', () => {
-        document.body.classList.toggle('light-theme');
-        themeSwitcher.innerHTML = document.body.classList.contains('light-theme') ? '☀️' : '🌙';
-    });
-    
-    document.body.appendChild(themeSwitcher);
-}
-
-// Initialize theme switcher
-initThemeSwitcher();
-
-// Performance monitoring
-function initPerformanceMonitoring() {
-    if ('performance' in window) {
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                const perfData = performance.getEntriesByType('navigation')[0];
-                console.log('Page Load Performance:', {
-                    'Load Time': perfData.loadEventEnd - perfData.fetchStart + 'ms',
-                    'DOM Ready': perfData.domContentLoadedEventEnd - perfData.fetchStart + 'ms',
-                    'First Paint': performance.getEntriesByType('paint')[0]?.startTime + 'ms'
-                });
-            }, 0);
-        });
-    }
-}
-
-// Initialize performance monitoring
-initPerformanceMonitoring();
-
 // Enhanced Portfolio Animations
 function initPortfolioAnimations() {
     const portfolioCards = document.querySelectorAll('.portfolio-card');
