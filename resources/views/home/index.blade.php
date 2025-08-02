@@ -447,9 +447,9 @@
                     </div>
                     <div class="text-center group">
                         <div class="w-16 h-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
-                            <img src="{{ asset('icons/kubernetes_icon.png') }}" alt="Kubernetes" class="w-10 h-10 object-contain">
+                            <img src="{{ asset('icons/php_icon.png') }}" alt="Kubernetes" class="w-10 h-10 object-contain">
                         </div>
-                        <p class="text-sm font-medium text-gray-900 dark:text-white">Kubernetes</p>
+                        <p class="text-sm font-medium text-gray-900 dark:text-white">PHP</p>
                     </div>
                     <div class="text-center group">
                         <div class="w-16 h-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
