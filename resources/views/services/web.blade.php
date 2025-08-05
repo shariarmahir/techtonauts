@@ -1099,7 +1099,7 @@
                 <div class="group relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-500 border border-gray-200/50 dark:border-gray-700/50"
                      @click="activeProject = activeProject === 'lifeguard' ? null : 'lifeguard'">
                     <div class="aspect-video relative overflow-hidden">
-                        <img src="{{ asset('images/lifeguard_plus_app.jpg') }}" alt="LifeGuard+ AI Healthcare Platform" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <img src="{{ asset('images/lifeguard_plus.jpg') }}" alt="LifeGuard+ AI Healthcare Platform" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         <div class="absolute top-4 right-4 bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-semibold">Healthcare AI</div>
                         <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">

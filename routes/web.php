@@ -21,3 +21,12 @@ Route::get('/services/soft', function () {
 Route::get('/services/ai', function () {
     return view('services.ai');
 });
+
+
+Route::get('/portfolio/portfolio', function () {
+    return view('portfolio.portfolio');
+});
+
+Route::get('/dashboard/dashboard', function () {
+    return view('dashboard.dashboard');
+});

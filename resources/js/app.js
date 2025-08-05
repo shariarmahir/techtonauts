@@ -1085,3 +1085,39 @@ window.addEventListener('resize', debounce(function() {
         initTeamAnimations();
     }
 }, 250));
+
+
+
+
+    // Mobile sidebar toggle
+    function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('sidebarOverlay');
+        
+        sidebar.classList.toggle('active');
+        overlay.classList.toggle('active');
+    }
+
+    // Add note functionality
+    document.getElementById('addNoteBtn').addEventListener('click', function() {
+        const noteForm = document.getElementById('noteForm');
+        noteForm.classList.toggle('hidden');
+    });
+
+    document.getElementById('cancelNote').addEventListener('click', function() {
+        const noteForm = document.getElementById('noteForm');
+        noteForm.classList.add('hidden');
+    });
+
+    // Close sidebar when clicking outside on mobile
+    document.addEventListener('click', function(event) {
+        const sidebar = document.getElementById('sidebar');
+        const sidebarOverlay = document.getElementById('sidebarOverlay');
+        const mobileMenuBtn = event.target.closest('button[onclick="toggleSidebar()"]');
+        
+        if (!sidebar.contains(event.target) && !mobileMenuBtn && sidebar.classList.contains('active')) {
+            sidebar.classList.remove('active');
+            sidebarOverlay.classList.remove('active');
+        }
+    });
+

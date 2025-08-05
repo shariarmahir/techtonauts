@@ -329,7 +329,7 @@
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
                                 <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                                    <img src="{{ asset('icons/nlp_premium_icon.png') }}" alt="Natural Language Processing" class="w-12 h-12 object-contain">
+                                    <img src="{{ asset('icons/nlp_processing_icon.png') }}" alt="Natural Language Processing" class="w-12 h-12 object-contain">
                                 </div>
                             </div>
                             <div class="flex-1">
@@ -384,7 +384,7 @@
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
                                 <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                                    <img src="{{ asset('icons/computer_vision_premium_icon.png') }}" alt="Computer Vision Systems" class="w-12 h-12 object-contain">
+                                    <img src="{{ asset('icons/computer_vision_icon.png') }}" alt="Computer Vision Systems" class="w-12 h-12 object-contain">
                                 </div>
                             </div>
                             <div class="flex-1">
@@ -439,7 +439,7 @@
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
                                 <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                                    <img src="{{ asset('icons/predictive_premium_icon.png') }}" alt="Predictive Analytics" class="w-12 h-12 object-contain">
+                                    <img src="{{ asset('icons/predictive_analytics_icon.png') }}" alt="Predictive Analytics" class="w-12 h-12 object-contain">
                                 </div>
                             </div>
                             <div class="flex-1">
@@ -626,7 +626,7 @@
                     </div>
                     
                     <div class="aspect-video relative overflow-hidden">
-                        <img src="{{ asset('images/agri_ai_platform.jpg') }}" alt="AgriAI Smart Agriculture Platform" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <img src="{{ asset('images/ai_platform.jpg') }}" alt="AgriAI Smart Agriculture Platform" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                             <p class="text-lg font-bold">Empowering Farmers</p>
@@ -902,13 +902,7 @@
                     </div>
                     <div class="text-center group">
                         <div class="w-16 h-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
-                            <img src="{{ asset('icons/huggingface_icon.png') }}" alt="Hugging Face" class="w-10 h-10 object-contain">
-                        </div>
-                        <p class="text-sm font-medium text-gray-900 dark:text-white">Hugging Face</p>
-                    </div>
-                    <div class="text-center group">
-                        <div class="w-16 h-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
-                            <img src="{{ asset('icons/aws_ai_icon.png') }}" alt="AWS AI" class="w-10 h-10 object-contain">
+                            <img src="{{ asset('icons/aws_icon.png') }}" alt="AWS AI" class="w-10 h-10 object-contain">
                         </div>
                         <p class="text-sm font-medium text-gray-900 dark:text-white">AWS AI</p>
                     </div>
@@ -1021,7 +1015,7 @@
     </section>
 
     <!-- Call to Action -->
-    <section id="cta" class="py-20 lg:py-32 bg-gradient-to-br from-indigo-600 via-purple-600 to-blue-600 relative overflow-hidden">
+    <section id="cta" class="py-20 lg:py-32 bg-gradient-to-br from-indigo-200 via-purple-300 to-blue-400 relative overflow-hidden">
         <!-- Background Effects -->
         <div class="absolute inset-0">
             <div class="absolute top-0 left-0 w-96 h-96 bg-white/10 rounded-full mix-blend-overlay filter blur-xl opacity-70 animate-pulse"></div>
@@ -1077,7 +1071,7 @@
                         </div>
                         <div>
                             <p class="text-sm text-white/80">AI Innovation Team</p>
-                            <p class="text-lg font-semibold">ai@techtonauts.com</p>
+                            <p class="text-lg font-semibold">info@techtonauts.com</p>
                         </div>
                     </div>
                     
@@ -1089,7 +1083,7 @@
                         </div>
                         <div>
                             <p class="text-sm text-white/80">AI Consultation</p>
-                            <p class="text-lg font-semibold">+880 1XXXXXXXXX</p>
+                            <p class="text-lg font-semibold">+880 1521444725</p>
                         </div>
                     </div>
                     
@@ -1123,9 +1117,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
             </svg>
         </div>
-        <div class="absolute bottom-8 right-8 w-16 h-16 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm animate-pulse">
-            <img src="{{ asset('images/techtonauts_logo_small.png') }}" alt="Techtonauts" class="w-8 h-8 object-contain">
-        </div>
+    
         <div class="absolute top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm animate-bounce" style="animation-delay: 1s;">
             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>

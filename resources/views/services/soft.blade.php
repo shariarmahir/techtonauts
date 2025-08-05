@@ -14,8 +14,8 @@
                  animateStats: false,
                  currentShowcase: 0,
                  showcases: [
-                     { name: 'LifeGuard+', type: 'Healthcare AI', description: 'AI-powered health monitoring for rural communities', status: 'Launching December 2024' },
-                     { name: 'CardioGuard', type: 'IoT Medical Device', description: 'Portable cardiovascular emergency response system', status: 'Launching December 2024' },
+                     { name: 'LifeGuard+', type: 'Healthcare AI', description: 'AI-powered health monitoring for rural communities', status: 'Launching December 2025' },
+                     { name: 'CardioGuard', type: 'IoT Medical Device', description: 'Portable cardiovascular emergency response system', status: 'Launching December 2025' },
                      { name: 'Smart Agriculture', type: 'IoT Platform', description: 'Precision farming with deep learning analytics', status: 'In Development' }
                  ]
              }"
@@ -267,7 +267,7 @@
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
                                 <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                                    <img src="{{ asset('icons/desktop_gui_premium_icon.png') }}" alt="Desktop GUI Applications" class="w-12 h-12 object-contain">
+                                    <img src="{{ asset('icons/desktop_gui_icon.png') }}" alt="Desktop GUI Applications" class="w-12 h-12 object-contain">
                                 </div>
                             </div>
                             <div class="flex-1">
@@ -322,7 +322,7 @@
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
                                 <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                                    <img src="{{ asset('icons/web_software_premium_icon.png') }}" alt="Web-based Software Solutions" class="w-12 h-12 object-contain">
+                                    <img src="{{ asset('icons/web_software_icon.png') }}" alt="Web-based Software Solutions" class="w-12 h-12 object-contain">
                                 </div>
                             </div>
                             <div class="flex-1">
@@ -377,7 +377,7 @@
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
                                 <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                                    <img src="{{ asset('icons/iot_integration_premium_icon.png') }}" alt="IoT Device Integration" class="w-12 h-12 object-contain">
+                                    <img src="{{ asset('icons/iot_devices_icon.png') }}" alt="IoT Device Integration" class="w-12 h-12 object-contain">
                                 </div>
                             </div>
                             <div class="flex-1">
@@ -432,7 +432,7 @@
                         <div class="flex items-start space-x-6">
                             <div class="flex-shrink-0">
                                 <div class="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                                    <img src="{{ asset('icons/custom_architecture_premium_icon.png') }}" alt="Custom Software Architecture" class="w-12 h-12 object-contain">
+                                    <img src="{{ asset('icons/custom_architecture_icon.png') }}" alt="Custom Software Architecture" class="w-12 h-12 object-contain">
                                 </div>
                             </div>
                             <div class="flex-1">
@@ -537,7 +537,7 @@
                     </div>
                     
                     <div class="aspect-video relative overflow-hidden">
-                        <img src="{{ asset('images/lifeguard_plus_app.jpg') }}" alt="LifeGuard+ AI Healthcare Application" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <img src="{{ asset('images/lifeguard_plus.jpg') }}" alt="LifeGuard+ AI Healthcare Application" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                         <div class="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                             <p class="text-lg font-bold">Launching December 2024</p>
@@ -906,7 +906,7 @@
     </section>
 
     <!-- Call to Action -->
-    <section id="cta" class="py-20 lg:py-32 bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-600 relative overflow-hidden">
+    <section id="cta" class="py-20 lg:py-32 bg-gradient-to-br from-purple-300 via-blue-400 to-indigo-500 relative overflow-hidden">
         <!-- Background Effects -->
         <div class="absolute inset-0">
             <div class="absolute top-0 left-0 w-96 h-96 bg-white/10 rounded-full mix-blend-overlay filter blur-xl opacity-70 animate-pulse"></div>
@@ -969,7 +969,7 @@
                         </div>
                         <div>
                             <p class="text-sm text-white/80">Innovation Hotline</p>
-                            <p class="text-lg font-semibold">+880 1XXXXXXXXX</p>
+                            <p class="text-lg font-semibold">+880 1521444725</p>
                         </div>
                     </div>
                     
@@ -1004,7 +1004,7 @@
             </svg>
         </div>
         <div class="absolute bottom-8 right-8 w-16 h-16 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm animate-pulse">
-            <img src="{{ asset('images/techtonauts_logo_small.png') }}" alt="Techtonauts" class="w-8 h-8 object-contain">
+            <img src="{{ asset('images/logo_no_bg.png') }}" alt="Techtonauts" class="w-8 h-8 object-contain">
         </div>
     </section>
 </div>
